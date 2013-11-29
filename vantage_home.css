@@ -54,6 +54,7 @@ div#page-wrap
 width:100%; /* to wrap the page when dimensions of browser change */
 min-width:980px; /* beyond this width, scroll is provided and page wraps*/
 margin:0 auto;
+overflow-x:hidden;
 }
 
 a.logo_wrap
@@ -102,6 +103,66 @@ div#page-wrap ul#nav li .home /* Home Page Tab Highlight */
 color:white;
 background-color:#008bd0;
 }
+
+
+
+div#footer
+{
+display:block;
+width:100%; 
+min-width:1380px;
+background: url(images/footer.png) repeat-x bottom; 
+height:250px; 
+/*check element footer's position 
+background-color:#a1c501;
+border-style: solid; 
+*/
+}
+
+
+
+div#footer p
+{
+margin-top:30px;
+position:relative;
+display:block;
+font-family: Helvertico, sans-serif;
+font-size:20px;
+text-align:center;
+margin-left:90px;
+height:90px;
+float:left;
+width:330px;
+background-color:#008bd0;
+border-style:solid;
+padding-top:70px;
+border-radius:5px;
+box-shadow: 0 10px 5px #888888;
+}
+
+div#footer p:hover, div#footer p:active
+{
+background-color:#a1c501;
+}
+
+div#footer p a#title
+{
+font-size:25px;
+color:white;
+}
+
+div#footer p a#link
+{
+font-size:25px;
+color:white;
+display:none;
+}
+
+div#footer p a#title:hover , div#footer p a#title:active 
+{
+display:none; 
+}
+
 
 
 .clearfix:after {
