@@ -49,17 +49,35 @@ background-color:white;
 font-family: Helvetica LT CondensedLight;
 }
 
-.b
+
+#blocks h1
+{	
+	font-size:18px;
+	line-height:24px;
+	/* text-shadow: 1px 1px 2px #888888; */
+}
+
+#blocks h2
+{
+	font-size:15px;
+	line-height:20px;
+	/* text-shadow: 1px 1px 2px #888888; */
+}
+
+strong
 {
 	font-weight:bold;
 }
 
-h1
-{	
-	font-size:20px;
+#blocks h2 ol
+{
+	list-style-type:decimal; list-style-position: inside;
 }
 
-
+#blocks h2 ul
+{
+	list-style-type:circle; list-style-position: inside;
+}
 
 div#page-wrap
 {
@@ -194,7 +212,7 @@ div#subtopics
 
 }
 
-div#subtopics p
+div#subtopics div#blocks
 {
 	margin-top:25px;
 	display:block;
@@ -202,16 +220,18 @@ div#subtopics p
 	font-size:20px;
 	text-align:center;
 	margin-left:90px;
-	height:90px;
+	height:180px;
 	float:left;
 	width:330px;
+	padding-top:10px;
+	/*
 	border-style:solid;
 	border-color:black;
 	border-width:1px;
-	padding-top:70px;
 	border-radius:10px;
 	box-shadow: 0 10px 5px #888888;
 	background:#fbfcfc url(images/top_gradient_bg.png) repeat;
+	*/
 }
 
 

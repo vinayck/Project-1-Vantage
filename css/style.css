@@ -69,7 +69,7 @@ pre 			{	margin:1.5em 0;white-space:pre;}
 
 
 /* --------------- 2.0 General Layout ------------------*/
-.center{ width:972px; margin:0 auto; }
+.center{ width:1106px; margin:0 auto; }
 
 div#page-wrap
 {
@@ -429,7 +429,7 @@ html ul.tabs2 li.active a:hover{ color:#000; }
 .notification_ok{ color:#060; }
 
 /*footer*/
-#footer{   text-align:center; background:url(../images/footer_bg.png) no-repeat center top; color:#fff; }
+#footer{   text-align:center; background:url(../images/footer_bg.png) no-repeat black center top; color:#fff; }
 #footer .shadow{ background:url(../images/footer_shadow.png) repeat-x top; padding:20px 0; text-shadow: 0px 1px 0 #000;}
 
 /* flickr image*/
