@@ -48,46 +48,6 @@ body
 font-family: Helvetica LT CondensedLight;
 }
 
-div#page-wrap
-{
-width:100%; /* to wrap the page when dimensions of browser change */
-min-width:980px; /* beyond this width, scroll is provided and page wraps*/
-margin:0 auto;
-}
-
-a.logo_wrap
-{
-width:217px;
-margin:22px auto; /* auto helps to align the logo to the center */
-margin-bottom:40px;
-display:block;
-}
-
-div#page-wrap ul#nav li
-{
-float:left;
-display:block;
-}
-
-div#page-wrap ul#nav li a
-{
-display:block;
-width:150px;
-height:25px;
-text-decoration:none;
-font-weight:bold;
-color:black;
-padding-top:10px;
-margin-bottom:0;
-}
-
-div#page-wrap ul#nav /* Menu Items */
-{
-list-style-type:none;
-text-align:center;
-width:795px;
-margin:0 auto;
-}
 
 div#page-wrap ul#nav li a:hover, div#page-wrap ul#nav li a:active
 {
@@ -96,10 +56,23 @@ background-color:#a1c501;
 /* border-style: solid; /* animated menu */ 
 }
 
-div#page-wrap ul#nav li .services /* Home Page Tab Highlight */
+div#page-wrap ul#nav li .solutions /* Home Page Tab Highlight */
 {
 color:white;
 background-color:#008bd0;
+}
+
+ol
+{
+	list-style-type:decimal;
+}
+ol li ul li
+{
+	list-style-type:circle;
+}
+ol li ul li ul li
+{
+	list-style-type:square;
 }
 
 .clearfix:after {

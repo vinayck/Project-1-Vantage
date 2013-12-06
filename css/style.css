@@ -71,6 +71,48 @@ pre 			{	margin:1.5em 0;white-space:pre;}
 /* --------------- 2.0 General Layout ------------------*/
 .center{ width:972px; margin:0 auto; }
 
+div#page-wrap
+{
+width:100%; /* to wrap the page when dimensions of browser change */
+min-width:980px; /* beyond this width, scroll is provided and page wraps*/
+margin:0 auto;
+}
+
+a.logo_wrap
+{
+width:217px;
+margin:22px auto; /* auto helps to align the logo to the center */
+margin-bottom:40px;
+display:block;
+}
+
+div#page-wrap ul#nav li
+{
+float:left;
+display:block;
+}
+
+div#page-wrap ul#nav li a
+{
+display:block;
+width:150px;
+height:25px;
+text-decoration:none;
+font-weight:bold;
+color:black;
+padding-top:10px;
+margin-bottom:0;
+}
+
+div#page-wrap ul#nav /* Menu Items */
+{
+list-style-type:none;
+text-align:center;
+width:795px;
+margin:0 auto;
+}
+
+
 /* Color picker - This is just to display the color picker on the left side of the page. You can remove this one anytime*/
 .color_picker{	position:fixed;	left:0;	top:300px; background:#000; float:left; margin-left:-3px; padding:10px; z-index:9999999; -webkit-border-radius:4px; -moz-border-radius:4px; -o-border-radius:4px; border-radius:4px;  -moz-box-shadow: 0px 0px 5px #000; -webkit-box-shadow: 0px 0px 5px #000; box-shadow: 0px 0px 5px #000;}
 .color_picker div{ -webkit-border-radius:4px; -moz-border-radius:4px; -o-border-radius:4px; border-radius:4px; }
@@ -207,7 +249,7 @@ nav ul li.search_icon a{ background:url(../images/search_icon.png) no-repeat 50%
 .sitemap li ul{ margin:0 0 0 20px; padding:0;}
 
 /* outer page or not the home page */
-#content{ width:630px; }
+#content{ width:1030px; }
 .drop_caps{ float:left; font-size:40px; text-transform:uppercase; padding-right:7px;  margin-top:10px; }
 .ie7 .drop_caps{ padding:10px 7px 10px 0px; float:left; font-size:40px; }
 
@@ -465,7 +507,5 @@ a.button:active { top: 1px }
 .one_half,.one_third,.two_third,.three_fourth,.one_fourth,.one_fifth,.two_fifth,.three_fifth,.four_fifth,.one_sixth,.five_sixth{ position:relative; margin-right:4%; float:left; }
 .last{ margin-right:0 !important; clear:right; }
 .clearboth {clear:both;display:block;font-size:0;height:0;line-height:0;width:100%;}
-
-
 
 
