@@ -45,7 +45,6 @@ table {
 
 body
 {
-background-color:white;
 font-family: Helvetica LT CondensedLight;
 }
 
@@ -57,7 +56,7 @@ background-color:#a1c501;
 /* border-style: solid; /* animated menu */ 
 }
 
-div#page-wrap ul#nav li .about /* Home Page Tab Highlight */
+div#page-wrap ul#nav li .insights /* Home Page Tab Highlight */
 {
 color:white;
 background-color:#008bd0;
@@ -74,11 +73,6 @@ ol li ul li
 ol li ul li ul li
 {
 	list-style-type:square;
-}
-
-ol ul li
-{
-	list-style-type:circle;
 }
 
 .clearfix:after {

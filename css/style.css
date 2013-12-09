@@ -1,15 +1,3 @@
-/**
-Author: Joefrey Mahusay
-Link: http://html5awesome.com/
-
-
-TABLE OF CONTENTS
-
-1.0  - BASIC LAYOUT
-2.0  - GENERAL LAYOUT
-
-
-**/
 
 /* --------------- 1.0 BASIC STYLE ------------------*/
 body { background:white; color:#7c7c7c; font:13px/1.4em Arial, Helvetica, sans-serif; position:relative;  }
@@ -307,7 +295,7 @@ html ul.tabs2 li.active a:hover{ color:#000; }
 #sidebar{ width:300px; }
 #sidebar .widgetwrap{ margin-bottom:20px; float:left; width:100%;}
 #sidebar .widgetwrap .menu{ padding:0; margin:-7px 0 20px 0; }
-#sidebar .widgetwrap .menu li{ border-bottom:1px solid #e2e2e2; list-style:none; padding:7px 0; }
+#sidebar .widgetwrap .menu li{ border-bottom:1px solid #e2e2e2;  padding:7px 0; }
 #sidebar .widgetwrap .menu li a{ color:#b7b7b7; background:url(../images/right_arrow.png) no-repeat left 0; padding-left:20px; }
 #sidebar .widgetwrap .menu li a:hover{ color:#4b5259; }
 #sidebar .widgetwrap ul{ padding:0; margin:0; }
@@ -418,13 +406,14 @@ html ul.tabs2 li.active a:hover{ color:#000; }
 
 /*quick_email*/
 #ajax-contact-form p{	margin-bottom:15px;}
-#qname, #qemail, #qmessage, #qsubject, .search, .textfield, .textarea{	-webkit-border-radius:4px; -moz-border-radius:4px; -o-border-radius:4px; border-radius:4px;	padding:7px; margin-right:10px;	border:1px solid #cfcfcf; -webkit-box-shadow: 0px 1px 3px #d4d4d4; -moz-box-shadow: 0px 1px 3px #d4d4d4; -o-box-shadow: 0px 1px 3px #d4d4d4; box-shadow: 0px 1px 3px #d4d4d4; font-family:Arial, Helvetica, sans-serif; background:url(../images/input_field_bg.png) repeat; border:1px solid #c4c4c4; color:# }
-#qname:focus, #qemail:focus, #qmessage:focus, .textfield:focus,  .textarea:focus, #qsubject:focus{ background:none; }
-#qname, #qemail, #qsubject{ width:200px; }
+#qname, #qlname, #qcnum, #qtitle, #qemail, #qmessage, #qaddress, #qorg, #qsubject, .search, .textfield, .textarea{	-webkit-border-radius:4px; -moz-border-radius:4px; -o-border-radius:4px; border-radius:4px;	padding:7px; margin-right:10px;	border:1px solid #cfcfcf; -webkit-box-shadow: 0px 1px 3px #d4d4d4; -moz-box-shadow: 0px 1px 3px #d4d4d4; -o-box-shadow: 0px 1px 3px #d4d4d4; box-shadow: 0px 1px 3px #d4d4d4; font-family:Arial, Helvetica, sans-serif; background:url(../images/input_field_bg.png) repeat; border:1px solid #c4c4c4; color:# }
+#qname:focus, #qlname:focus, #qcnum:focus, #qtitle:focus, #qorg:focus, #qemail:focus, #qmessage:focus, #qaddress:focus, .textfield:focus,  .textarea:focus, #qsubject:focus{ background:none; }
+#qname, #qlname, #qcnum, #qtitle, #qemail, #qorg, #qsubject{ width:200px; }
 #qmessage{  width:270px; }
-.textarea, #qmessage{ font-size:13px; }
-#content .contact_us #qname, #content .contact_us #qemail, #content .contact_us #qsubject{ width:300px;}
+.textarea, #qmessage, #qaddress{ font-size:13px; }
+#content .contact_us #qname, #qlname, #qcnum, #qtitle, #qorg, #content .contact_us #qemail, #content .contact_us #qsubject{ width:300px;}
 #content .contact_us #qmessage{ width:400px; height:200px;}
+#content .contact_us #qaddress{ width:300px; height:100px;}
 .notification_error span{ display:block; color:#F00; }
 .notification_ok{ color:#060; }
 
