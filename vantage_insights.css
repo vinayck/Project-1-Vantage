@@ -45,21 +45,21 @@ table {
 
 body
 {
-font-family: Helvetica LT CondensedLight;
+	font-family: Helvetica LT CondensedLight;
 }
 
 
 div#page-wrap ul#nav li a:hover, div#page-wrap ul#nav li a:active
 {
-color:white;
-background-color:#a1c501;
-/* border-style: solid; /* animated menu */ 
+	color:white;
+	background-color:#a1c501;
+	/* border-style: solid; /* animated menu */ 
 }
 
 div#page-wrap ul#nav li .insights /* Home Page Tab Highlight */
 {
-color:white;
-background-color:#008bd0;
+	color:white;
+	background-color:#008bd0;
 }
 
 ol

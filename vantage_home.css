@@ -45,8 +45,8 @@ table {
 
 body
 {
-background-color:white;
-font-family: Helvetica LT CondensedLight;
+	background-color:white;
+	font-family: Helvetica LT CondensedLight;
 }
 
 
@@ -83,94 +83,90 @@ strong
 
 div#page-wrap
 {
-width:100%; /* to wrap the page when dimensions of browser change */
-min-width:980px; /* beyond this width, scroll is provided and page wraps*/
-margin:0 auto;
-overflow-x:hidden;
+	width:100%; /* to wrap the page when dimensions of browser change */
+	min-width:980px; /* beyond this width, scroll is provided and page wraps*/
+	margin:0 auto;
+	overflow-x:hidden;
 }
 
 a.logo_wrap
 {
-width:217px;
-margin:22px auto; /* auto helps to align the logo to the center */
-margin-bottom:40px;
-display:block;
+	width:217px;
+	margin:22px auto; /* auto helps to align the logo to the center */
+	margin-bottom:40px;
+	display:block;
 }
 
 div#page-wrap ul#nav li
 {
-float:left;
-display:block;
+	float:left;
+	display:block;
 }
 
 div#page-wrap ul#nav li a
 {
-display:block;
-width:150px;
-height:25px;
-text-decoration:none;
-font-weight:bold;
-color:black;
-padding-top:10px;
-margin-bottom:0;
+	display:block;
+	width:150px;
+	height:25px;
+	text-decoration:none;
+	font-weight:bold;
+	color:black;
+	padding-top:10px;
+	margin-bottom:0;
 }
 
 div#page-wrap ul#nav /* Menu Items */
 {
-list-style-type:none;
-text-align:center;
-width:795px;
-margin:0 auto;
+	list-style-type:none;
+	text-align:center;
+	width:795px;
+	margin:0 auto;
 }
 
 div#page-wrap ul#nav li a:hover, div#page-wrap ul#nav li a:active
 {
-color:white;
-background-color:#a1c501;
-/* border-style: solid; /* animated menu */ 
+	color:white;
+	background-color:#a1c501;
+	/* border-style: solid; /* animated menu */ 
 }
 
 div#page-wrap ul#nav li .home /* Home Page Tab Highlight */
 {
-color:white;
-background-color:#008bd0;
+	color:white;
+	background-color:#008bd0;
 }
-
-
 
 div#boxes
 {
-margin-top:-50px;
-display:block;
-width:100%; 
-min-width:1380px;
-background: url(images/footer.png) repeat-x bottom; 
-height:250px; 
-/*check element footer's position 
-background-color:#a1c501;
-border-style: solid; 
-*/
+	margin-top:-50px;
+	display:block;
+	width:100%; 
+	min-width:1380px;
+	background: url(images/footer.png) repeat-x bottom; 
+	height:250px; 
+	/*check element footer's position 
+	background-color:#a1c501;
+	border-style: solid; 
+	*/
 }
-
-
 
 div#boxes p
 {
-margin-top:65px;
-position:relative;
-background: url(images/top_gradient_bg.png) no-repeat top;
-display:block;
-font-family: Helvertico, sans-serif;
-font-size:20px;
-text-align:center;
-margin-left:90px;
-height:90px;
-float:left;
-width:330px;
-background-color:#008bd0;
-padding-top:70px;
-border-radius:100px;
-box-shadow: 0 10px 5px #888888;
+	margin-top:65px;
+	position:relative;
+	background: url(images/top_gradient_bg.png) no-repeat top;
+	display:block;
+	font-family: Helvertico, sans-serif;
+	font-size:20px;
+	text-align:center;
+	margin-left:90px;
+	height:90px;
+	float:left;
+	width:330px;
+	background-color:#008bd0;
+	padding-top:70px;
+	border-radius:100px;
+	box-shadow: 0 10px 5px #888888;
 }
 
 div#boxes p:hover, div#boxes p:active
